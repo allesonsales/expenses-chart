@@ -1,0 +1,56 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: var(--Cream);
+    padding: 1rem;
+    border-radius: 10px;
+    height: 70vh;
+    margin-top: 2rem;
+}
+
+small {
+    font-size: 1rem;
+}
+
+.cardTop {
+    color: var(--Dark-brown);
+}
+
+.cardTop span {
+    color: var(--Dark-brown);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.cardContent {
+    height: 200px;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cardFooterTotal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cardFooterTotal span {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.cardFooterPercent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.cardFooterPercent span {
+    font-weight: 800;
+}
